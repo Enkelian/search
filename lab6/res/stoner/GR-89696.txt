@@ -1,0 +1,2 @@
+GR-89696
+GR-89696 is a drug which acts as a highly selective κ-opioid agonist. It shows selective effects in different animal models and it is thought it may be a subtype-selective agonist for the κ2 subtype. Recent studies have suggested that GR-89696 and related κ2-selective agonists may be useful for preventing the itching which is a common side effect of conventional opioid analgesic drugs, without the additional side effects of non-selective kappa agonists. == References == 

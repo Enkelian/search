@@ -1,0 +1,11 @@
+# Project exclude paths
+/venv/
+/lab6/res/documents_dict.json
+/lab6/res/col_norms.npz
+/lab6/res/svd_compoments_.npz
+/lab6/res/tbd.npz
+/lab6/res/tbd_no_idf.npz
+/lab6/res/tbd_no_idf_normalized.npz
+/lab6/res/tbd_normalized.npz
+/lab6/res/tbd_trans.npz
+/lab6/res/terms_dict.json

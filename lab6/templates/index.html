@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block styles %}
+
+label{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.card{
+    padding: 30px 40px;
+}
+{% endblock %}
+{% block content %}
+<nav class="navbar sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Fog search</a>
+    <form action="#" method="POST">
+      <div class="form-inline form-group text-white rgba-stylish-strong">
+        <label for="queryFormControlInput">Enter words to search</label>
+        <input type="text" class="form-control" id="queryFormControlInput" placeholder="your text" name="qu">
+        <label for="resultsCountFormControlInput">How many results?</label>
+        <input type="number" class="form-control" id="resultsCountFormControlInput" placeholder="10" name="res">
+        <label for="selectModeFormControlSelect">Select mode</label>
+        <select class="form-control" id="selectModeFormControlSelect" name="mode">
+          <option>Normalized with SVD and LRA</option>
+          <option>Normalized</option>
+          <option>Not normalized</option>
+        </select>
+      <button type="submit" class="btn btn-outline-light" id="search-button">Search</button>
+      </div>
+    </form>
+</nav>
+<div class="results">
+    {% if results %}
+        {% for result in results %}
+            <div class="card">
+              <h5 class="card-header">{{result[0]}}</h5>
+              <div class="card-body">
+                <p class="card-text">{{result[1]}}</p>
+                <a href={{result[2]}} class="btn btn-dark">Go to full Wikipedia article</a>
+              </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+
+{% endblock %}

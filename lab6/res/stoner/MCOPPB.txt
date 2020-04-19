@@ -1,0 +1,2 @@
+MCOPPB
+MCOPPB is a drug which acts as a potent and selective agonist for the nociceptin receptor, with a pKi of 10.07 and much weaker activity at other opioid receptors. It has only moderate affinity for the mu opioid receptor, weak affinity for the kappa opioid receptor and negligible binding at the delta opioid receptor. In animal studies, MCOPPB produces potent anxiolytic effects, with no inhibition of memory or motor function, and only slight sedative side effects which do not appear until much higher doses than the effective anxiolytic dose range. == References == 

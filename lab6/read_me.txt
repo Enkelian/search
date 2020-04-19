@@ -1,0 +1,1 @@
+Before starting the app, run create_files.py

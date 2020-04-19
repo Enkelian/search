@@ -1,0 +1,2 @@
+DPI-3290
+DPI-3290 was discovered by scientists at Burroughs Wellcome and licensed to Delta Pharmaceutical and is a drug that is used in scientific research. It is a potent analgesic drug, which produces little respiratory depression.DPI-3290 acts as an agonist at both μ- and δ-opioid receptor, with an IC50 of 6.2nM at μ and 1.0nM at δ. == References == 
